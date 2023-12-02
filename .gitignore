@@ -1,4 +1,5 @@
 *.hi
 .stack-work/
-day*
+/day*
 !day*.hs
+tmp.txt
