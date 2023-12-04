@@ -2,4 +2,4 @@
 .stack-work/
 /day*
 !day*.hs
-tmp.txt
+/result
