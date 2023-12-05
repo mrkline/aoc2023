@@ -12,6 +12,7 @@ let haskellSrc = builtins.fetchTarball "https://github.com/input-output-hk/haske
 in pkgs.haskell-nix.snapshots."lts-20.26".ghcWithPackages ( ps: with ps; [
     composition-extra
     containers
+    parallel
     split
     text
     unordered-containers
