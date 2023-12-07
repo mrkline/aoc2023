@@ -17,4 +17,5 @@ in pkgs.haskell-nix.snapshots."lts-20.26".ghcWithPackages ( ps: with ps; [
     text
     unordered-containers
     vector
+    vector-algorithms
 ])
